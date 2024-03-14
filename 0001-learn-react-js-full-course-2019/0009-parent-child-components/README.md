@@ -9,7 +9,7 @@ to nested custom `JSX` elements.
 
 ## Example Hierarchy
 
-![Example Hieararchy](doc/uml/Main.png)
+![Example Hierarchy](doc/uml/Main.png)
 
 This is just scratching the surface, component hierarchies can be very complex.
 
