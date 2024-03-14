@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  app-dev:
+    image: node:latest
+    container_name: app-dev-container
+    ports:
+      - "3000:5173" # Map the Vite server port to the host
+    volumes:
+      - ./app/:/app # Mount the project directory to /app in the container
+    working_dir: /app
+    command: sh -c "npm install && npx vite"
+    environment:
+      - NODE_ENV=development
