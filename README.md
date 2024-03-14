@@ -11,6 +11,10 @@ Free learning resources based on the FreeCodeCamp.org series of courses.
 - Vite and TypeScript (`TSX`) for a more up to date experience
 
 ## Prerequisites
+We are using containers in this project to make everything a nice experience
+and give you the ability to use your applications locally without tidious configurations.
+For this you will need to install a couple of things:
+
 1) You need to install `docker` the container engine.
 2) You also need to install `docker-compose` for simpler usage. 
 3) You are ready for launch! 🚀
